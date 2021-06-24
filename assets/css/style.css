@@ -1,0 +1,83 @@
+/* GLOBAL VARIABLES START */
+:root {
+  --primary-color: #31343D;
+  --secondary-color: #92CCCE;
+
+  --primary-font: Arial, Helvetica, sans-serif;
+  }
+/* GLOBAL VARIABLES END */
+
+/*GENERAL PAGE STYLES START */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+/*GENERAL PAGE STYLES END */
+
+/* HEADER STYLES START */
+header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: var(--primary-color);
+}
+
+header h1 {
+  padding: 10px 10px 10px 30px;
+  margin: 10px 10px 10px 0px;
+
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  font-family: var(--primary-font);
+}
+
+/* HEADER STYLES END */
+
+/* NAVIGATION STYLES START */
+nav {
+  margin: 0px 50px;
+}
+header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+
+  list-style: none;
+}
+
+header nav ul li {
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 10px 5px;
+  padding: 0px 15px;
+  border-bottom: 5px solid var(--secondary-color);
+}
+
+header nav ul li a {
+  text-decoration: none;
+
+  color: var(--secondary-color);
+  font-family: var(--primary-font);
+}
+/* NAVIGATION STYLES END */
+
+/* HERO STYLES START */
+.hero-section {
+  background-image: url("../images/milkyway.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 10px 5px;
+
+  display: flex; 
+}
+
+.hero-section
+
+/* HERO STYLES END */
