@@ -166,6 +166,13 @@ header nav ul li a {
   background-size: cover;
 
   border: 5px solid var(--secondary-color);
+  transition: all .5s;
+  overflow: hidden;
+}
+
+.project:hover {
+  filter: brightness(150%);
+  transform: scale(1.01);
 }
 
 .featured {
