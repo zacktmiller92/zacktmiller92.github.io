@@ -148,13 +148,17 @@ header nav ul li a {
 
 .projects {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-between;
 }
 
 .project {
   display: flex;
-  margin: 10px 0px;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  flex-shrink: 1;
+  margin: 10px 10px;
 
   width: 500px;
   height: 200px;
