@@ -195,6 +195,7 @@ header nav ul li a {
 /* CONTACT STYLES START */ 
 .contact {
   align-items: center;
+
 }
 
 .contact ul {
@@ -398,6 +399,8 @@ font-size: 32px;
 
   .contact ul {
     font-size: 12px;
+    flex-wrap: nowrap;
   }
   /* CONTACT STYLES END */
 }
+
