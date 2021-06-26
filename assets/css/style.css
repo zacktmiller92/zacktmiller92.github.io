@@ -140,6 +140,10 @@ header nav ul li a {
 
 /* ABOUT ME STYLES START */
 
+.about-me img {
+  width: 30%;
+}
+
 /* ABOUT ME STYLES END */
 
 
@@ -327,6 +331,14 @@ font-size: 32px;
       font-size: 18px;
     }
   /*GENERAL PAGE STYLES END */
+
+  /* ABOUT ME STYLES START */
+
+  .about-me img {
+    width: 50%;
+  }
+
+/* ABOUT ME STYLES END */
 
   /* UTLILTY STYLES START */
   .left-column {
