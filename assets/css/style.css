@@ -180,6 +180,8 @@ header nav ul li a {
 .featured {
   flex-basis: 100%;
   height: 500px;
+  background-image: url("../images/project-1-screenshot.PNG");
+  background-size: cover;
 }
 
 .project-description {
