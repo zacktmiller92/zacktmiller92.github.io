@@ -177,6 +177,10 @@ header nav ul li a {
   filter: brightness(150%);
 }
 
+.project:nth-of-type(2) {
+  background-image: url("../images/project-2-screenshot.PNG");
+}
+
 .featured {
   flex-basis: 100%;
   height: 500px;
