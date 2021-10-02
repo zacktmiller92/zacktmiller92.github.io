@@ -178,7 +178,7 @@ header nav ul li a {
 }
 
 .project:nth-of-type(2) {
-  background-image: url("../images/project-2-screenshot.PNG");
+  background-image: url("../images/project-2-screenshot.PNG")!important;
 }
 
 .featured {
